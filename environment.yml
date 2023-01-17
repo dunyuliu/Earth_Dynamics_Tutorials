@@ -1,0 +1,16 @@
+name: geol
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python
+  - jupyter
+  - landlab
+  - pip
+  - pip:
+    - ipywidgets
+    - matplotlib
+    - numpy
+    - scipy
+    - pandas
